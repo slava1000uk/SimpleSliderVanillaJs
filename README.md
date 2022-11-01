@@ -1,2 +1,2 @@
 # SimpleSliderVanillaJs
-Simple slider in Vanilla Js
+Simple slider in Vanilla Js!
