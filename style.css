@@ -19,9 +19,14 @@
   padding: 0;
   list-style: none;
   display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 0.5s;
 }
 
-.slider__item {}
+/* .slider__item {
+  transition: 0.5s;
+} */
 
 p {
   margin: 0;
@@ -48,12 +53,16 @@ img {
   background-color:lawngreen;
 }
 
+.control:active {
+  background-color:green;
+}
+
 .control.left {
   top: 45%;
-  left: calc(40% - 264px/2);
+  left: calc(34% - 264px/2);
 }
 
 .control.right {
   top: 45%;
-  right: calc(40% - 264px/2);
+  right: calc(34% - 264px/2);
 }
